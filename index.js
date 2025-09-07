@@ -53,6 +53,9 @@ app.get('/login',(req,res) =>{
 app.get('/github',(req,res) =>{
     res.json(githubData)
 })
+app.get('/youtube',(req,res) =>{
+    res.send('Ishan Saxena')
+})
 
 
 app.listen(process.env.PORT, () => {
